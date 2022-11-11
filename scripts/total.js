@@ -55,7 +55,8 @@ function sidebarClickHandler() {
       
       const prevActive = document.querySelector(".active");
       const prevActiveIdx = +prevActive.getAttribute("data-idx");
-      changeBlackSrc(prevActive, black[prevActiveIdx]);
+
+      // changeBlackSrc(prevActive, black[prevActiveIdx]);
 
       for (let j = 0; j < sidebarItems.length; j++) {
         sidebarItems[j].classList.remove("active");
@@ -70,7 +71,7 @@ function sidebarClickHandler() {
 
       showUl(this);
 
-      changeWhiteSrc(this, white[currentIdx]);
+      // changeWhiteSrc(this, white[currentIdx]);
 
       if (currentIdx === prevActiveIdx) {
         counter++;

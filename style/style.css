@@ -50,6 +50,13 @@ section {
   display: none;
 }
 
+.main__all-btn {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-right: -16px;
+}
+
 body {
   background: #f4f5fa;
 }
@@ -838,12 +845,12 @@ body {
   justify-content: flex-end;
   align-items: center;
   gap: 32px;
-  margin-right: 40px;
+  margin-right: 24px;
   margin-top: 24px;
 }
 
 .main__programs-content-btn {
-  padding: 9.5px 20px 9.5px 10px;
+  padding: 9.5px 20px 9.5px 22px;
   background: #5570f1;
   border-radius: 12px;
   border: none;
@@ -1291,4 +1298,31 @@ body {
     font-size: 12px;
     gap: 5px;
   }
+}
+
+
+/* ************************************* */
+/*  Students registration Page       */
+
+
+.students-reg-list {
+  grid-template-columns: 1.1fr 1.8fr 0.8fr 0.8fr 1fr 0.8fr .5fr;
+}
+
+.students-reg-circle {
+  width: 11px;
+  height: 11px;
+  background: #519c66;
+  border: 1px solid #F0F0F0;
+  border-radius: 50%;
+}
+
+.students__content-link {
+  color: #5570F1;
+  border-bottom: 1px solid #5570F1;
+  font-family: var(--int400);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 }
