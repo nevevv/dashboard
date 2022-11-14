@@ -1,472 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="style/style.css"/>
+    <link rel="stylesheet" href="style/style.css" />
     <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css
     "
     />
-</head>
-<body>
-<div class="header">
-    <!-- Header Nav Start -->
-    <nav class="header__nav">
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="header">
+      <!-- Header Nav Start -->
+      <nav class="header__nav">
         <div class="header__nav-logo">
-            <img src="images/logo-icon.png" alt=""/>
-            <img src="images/logo-text.png" alt=""/>
+          <img src="images/logo-icon.png" alt="" />
+          <img src="images/logo-text.png" alt="" />
         </div>
 
         <div class="header__nav-list">
-            <a href="index.html" class="header__nav-blocks">
-                <div class="header__nav-blocks-item">
-                    <img src="images/Category.png" alt=""/>
-                    <p>Dashboard</p>
-                </div>
-            </a>
-            <a href="programs.html" class="header__nav-blocks">
-                <div class="header__nav-blocks-item">
-                    <img src="images/Category2.png" alt=""/>
-                    <p>Undergraduate Programs</p>
-                </div>
-            </a>
-            <a href="users.html" class="header__nav-blocks ">
-                <div class="header__nav-blocks-item">
-                    <img src="images/2 User.png" alt=""/>
-                    <p>Users</p>
-                </div>
-            </a>
+          <a href="index.html" class="header__nav-blocks">
+            <div class="header__nav-blocks-item">
+              <img src="images/Category.png" alt="" />
+              <p>Dashboard</p>
+            </div>
+          </a>
+          <a href="programs.html" class="header__nav-blocks">
+            <div class="header__nav-blocks-item">
+              <img src="images/Category2.png" alt="" />
+              <p>Undergraduate Programs</p>
+            </div>
+          </a>
+          <a href="users.html" class="header__nav-blocks">
+            <div class="header__nav-blocks-item">
+              <img src="images/2 User.png" alt="" />
+              <p>Users</p>
+            </div>
+          </a>
 
-            <a href="students-registrations.html" class="header__nav-blocks active">
-                <div class="header__nav-blocks-item">
-                    <img src="images/student-white.png" alt=""/>
-                    <p>Students Registration</p>
-                </div>
-            </a>
-            <a href="notice.html" class="header__nav-blocks">
-                <div class="header__nav-blocks-item">
-                    <img src="images/Chat.png" alt=""/>
-                    <p>Notice Board</p>
-                </div>
-            </a>
-            <a href="data-export.html" class="header__nav-blocks">
-                <div class="header__nav-blocks-item">
-                    <img src="images/Upload.png" alt=""/>
-                    <p>Data Export</p>
-                </div>
-            </a>
-            <a href="scholarship.html" class="header__nav-blocks">
-                <div class="header__nav-blocks-item">
-                    <img src="images/medal.png" alt=""/>
-                    <p>Scholarship and Ranking</p>
-                </div>
-            </a>
-            <a href="academic.html" class="header__nav-blocks">
-                <div class="header__nav-blocks-item">
-                    <img src="images/Calendar.png" alt=""/>
-                    <p>Academic Years</p>
-                </div>
-            </a>
-            <a href="course.html" class="header__nav-blocks">
-                <div class="header__nav-blocks-item">
-                    <img src="images/Bookmark.png" alt=""/>
-                    <p>Course Managements</p>
-                </div>
-            </a>
-            <a href="transfer.html" class="header__nav-blocks">
-                <div class="header__nav-blocks-item">
-                    <img src="images/arrow transfer.png" alt=""/>
-                    <p>Transfer Credits</p>
-                </div>
-            </a>
-            <a href="finances.html" class="header__nav-blocks">
-                <div class="header__nav-blocks-item">
-                    <img src="images/wallet-check.png" alt=""/>
-                    <p>Finances</p>
-                </div>
-            </a>
-            <a href="#!" class="header__nav-blocks">
-                <div class="header__nav-blocks-item">
-                    <img src="images/ShieldDone.png" alt=""/>
-                    <p>Action Verification</p>
-                </div>
-            </a>
+          <a
+            href="students-registrations.html"
+            class="header__nav-blocks active"
+          >
+            <div class="header__nav-blocks-item">
+              <img src="images/student-white.png" alt="" />
+              <p>Students Registration</p>
+            </div>
+          </a>
+          <a href="notice.html" class="header__nav-blocks">
+            <div class="header__nav-blocks-item">
+              <img src="images/Chat.png" alt="" />
+              <p>Notice Board</p>
+            </div>
+          </a>
+          <a href="data-export.html" class="header__nav-blocks">
+            <div class="header__nav-blocks-item">
+              <img src="images/Upload.png" alt="" />
+              <p>Data Export</p>
+            </div>
+          </a>
+          <a href="scholarship.html" class="header__nav-blocks">
+            <div class="header__nav-blocks-item">
+              <img src="images/medal.png" alt="" />
+              <p>Scholarship and Ranking</p>
+            </div>
+          </a>
+          <a href="academic.html" class="header__nav-blocks">
+            <div class="header__nav-blocks-item">
+              <img src="images/Calendar.png" alt="" />
+              <p>Academic Years</p>
+            </div>
+          </a>
+          <a href="course.html" class="header__nav-blocks">
+            <div class="header__nav-blocks-item">
+              <img src="images/Bookmark.png" alt="" />
+              <p>Course Managements</p>
+            </div>
+          </a>
+          <a href="transfer.html" class="header__nav-blocks">
+            <div class="header__nav-blocks-item">
+              <img src="images/arrow transfer.png" alt="" />
+              <p>Transfer Credits</p>
+            </div>
+          </a>
+          <a href="finances.html" class="header__nav-blocks">
+            <div class="header__nav-blocks-item">
+              <img src="images/wallet-check.png" alt="" />
+              <p>Finances</p>
+            </div>
+          </a>
+          <a href="#!" class="header__nav-blocks">
+            <div class="header__nav-blocks-item">
+              <img src="images/ShieldDone.png" alt="" />
+              <p>Action Verification</p>
+            </div>
+          </a>
 
-            <a href="#!" class="header__nav-blocks">
-                <img src="images/Logout.png" alt=""/>
-                <p>Logout</p>
-            </a>
+          <a href="#!" class="header__nav-blocks">
+            <img src="images/Logout.png" alt="" />
+            <p>Logout</p>
+          </a>
         </div>
-    </nav>
-    <!-- Header Nav End -->
-    <div class="main">
+      </nav>
+      <!-- Header Nav End -->
+      <div class="main">
         <!-- Sections -->
         <!-- Section Programs Start -->
         <section class="programs__page">
-            <div class="main__head">
-                <div class="burger-menu">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-                <div class="main__head-title">Students Registration</div>
-                <div class="main__head-block">
-                    <button class="main__head-select">
-                        Administrator
-                        <span style="padding-right: 17px">
+          <div class="main__head">
+            <div class="burger-menu">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="main__head-title">Students Registration</div>
+            <div class="main__head-block">
+              <button class="main__head-select">
+                Administrator
+                <span style="padding-right: 17px">
                   <i class="fa-solid fa-chevron-down"></i>
                 </span>
-                    </button>
-                    <a href="#!">
-                        <img src="images/Notification.png" alt=""/>
-                    </a>
-                    <a href="#!">
-                        <img src="images/main__head-avatar.png" alt=""/>
-                    </a>
-                </div>
+              </button>
+              <a href="#!">
+                <img src="images/Notification.png" alt="" />
+              </a>
+              <a href="#!">
+                <img src="images/main__head-avatar.png" alt="" />
+              </a>
             </div>
-            <div class="main__block-name">
-                <img src="images/header__block-name.png" alt=""/>
-                <span class="main__block-span">/</span>
-                <p class="main__block-title">Students</p>
+          </div>
+          <div class="main__block-name">
+            <img src="images/header__block-name.png" alt="" />
+            <span class="main__block-span">/</span>
+            <p class="main__block-title">Students</p>
+          </div>
+          <div class="main__programs-content">
+            <div class="users-content-head">
+              <h3 class="users-content-title">All students</h3>
+              <div class="main__all-btn">
+                <button class="main__programs-content-btn">
+                  <img src="images/plus.png" alt="" />
+
+                  Create a New User
+                </button>
+                <img
+                  src="images/dots-vertical.svg"
+                  class="dots-vertical"
+                  alt=""
+                />
+              </div>
             </div>
-            <div class="main__programs-content">
-                <div class="users-content-head">
-                    <h3 class="users-content-title">All students</h3>
-                    <div class="main__all-btn">
-                        <button class="main__programs-content-btn">
-                            <img src="images/plus.png" alt=""/>
-
-                            Create a New User
-                        </button>
-                        <img src="images/dots-vertical.svg" class="dots-vertical" alt=""/>
-                    </div>
+            <div class="main__programs-content-block">
+              <div class="main__content-block-head">
+                <h3 class="main__block-head-title">All Users</h3>
+                <div class="main__block-head-item">
+                  <div class="main__block-head-input">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search" />
+                  </div>
+                  <button>
+                    <img src="images/filter.svg" alt="" />
+                    Filter
+                  </button>
                 </div>
-                <div class="main__programs-content-block">
-                    <div class="main__content-block-head">
-                        <h3 class="main__block-head-title">All Users</h3>
-                        <div class="main__block-head-item">
-                            <div class="main__block-head-input">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                                <input type="text" placeholder="Search"/>
-                            </div>
-                            <button>
-                                <img src="images/filter.svg" alt=""/>
-                                Filter
-                            </button>
-                        </div>
+              </div>
+
+              <div class="user__content-lists students-reg-list">
+                <div class="user__content-list">
+                  <li class="user__content-item">
+                    <div class="main__programs-items-check user-items-check">
+                      <img src="images/check.png" alt="" />
+                    </div>
+                    Student Id
+                    <img src="images/sort.svg" alt="" />
+                  </li>
+                  <li class="user__content-item">
+                    <div class="main__programs-items-check user-items-check">
+                      <img src="images/check.png" alt="" />
+                    </div>
+                    <span class="students-reg-circle"></span>
+                    <p class="students__content-link">20M013</p>
+                  </li>
+                  <li class="user__content-item">
+                    <div class="main__programs-items-check user-items-check">
+                      <img src="images/check.png" alt="" />
+                    </div>
+                    <span class="students-reg-circle"></span>
+
+                    <p class="students__content-link">20M013</p>
+                  </li>
+                  <li class="user__content-item">
+                    <div class="main__programs-items-check user-items-check">
+                      <img src="images/check.png" alt="" />
+                    </div>
+                    <span class="students-reg-circle"></span>
+
+                    <p class="students__content-link">20M013</p>
+                  </li>
+                  <li class="user__content-item">
+                    <div class="main__programs-items-check user-items-check">
+                      <img src="images/check.png" alt="" />
                     </div>
 
-                    <div class="user__content-lists students-reg-list">
-                        <div class="user__content-list">
-                            <li class="user__content-item">
-                                <div class="main__programs-items-check user-items-check">
-                                    <img src="images/check.png" alt=""/>
-                                </div>
-                                Student Id
-                                <img src="images/sort.svg" alt=""/>
-                            </li>
-                            <li class="user__content-item">
-                                <div class="main__programs-items-check user-items-check">
-                                    <img src="images/check.png" alt=""/>
-                                </div>
-                                <span class="students-reg-circle"></span>
-                                <p class="students__content-link">
-                                    20M013
-                                </p>
-                            </li>
-                            <li class="user__content-item">
-                                <div class="main__programs-items-check user-items-check">
-                                    <img src="images/check.png" alt=""/>
-                                </div>
-                                <span class="students-reg-circle"></span>
-
-                                <p class="students__content-link">
-                                    20M013
-                                </p>
-
-                            </li>
-                            <li class="user__content-item">
-                                <div class="main__programs-items-check user-items-check">
-                                    <img src="images/check.png" alt=""/>
-                                </div>
-                                <span class="students-reg-circle"></span>
-
-                                <p class="students__content-link">
-                                    20M013
-                                </p>                                 </li>
-                            <li class="user__content-item">
-                                <div class="main__programs-items-check user-items-check">
-                                    <img src="images/check.png" alt=""/>
-                                </div>
-
-                                <span class="students-reg-circle"></span>
-                                <p class="students__content-link">
-                                    20M013
-                                </p>
-                            </li>
-                            <li class="user__content-item">
-                                <div class="main__programs-items-check user-items-check">
-                                    <img src="images/check.png" alt=""/>
-                                </div>
-                                <span class="students-reg-circle"></span>
-
-                                <p class="students__content-link">
-                                    20M013
-                                </p>
-                            </li>
-                            <li class="user__content-item">
-                                <div class="main__programs-items-check user-items-check">
-                                    <img src="images/check.png" alt=""/>
-                                </div>
-                                <span class="students-reg-circle"></span>
-
-                                <p class="students__content-link">
-                                    20M013
-                                </p>
-                            </li>
-                            <li class="user__content-item">
-                                <div class="main__programs-items-check user-items-check">
-                                    <img src="images/check.png" alt=""/>
-                                </div>
-                                <span class="students-reg-circle"></span>
-
-                                <p class="students__content-link">
-                                    20M013
-                                </p>
-                            </li>
-                            <li class="user__content-item">
-                                <div class="main__programs-items-check user-items-check">
-                                    <img src="images/check.png" alt=""/>
-                                </div>
-                                <span class="students-reg-circle"></span>
-
-                                <p class="students__content-link">
-                                    20M013
-                                </p>                            </li>
-                            <li class="user__content-item">
-                                <div class="main__programs-items-check user-items-check">
-                                    <img src="images/check.png" alt=""/>
-                                </div>
-                                <span class="students-reg-circle"></span>
-                                <p class="students__content-link">
-                                    20M013
-                                </p>
-                            </li>
-                            <li class="user__content-item">
-                                <div class="main__programs-items-check user-items-check">
-                                    <img src="images/check.png" alt=""/>
-                                </div>
-                                <span class="students-reg-circle"></span>
-                                <p class="students__content-link">
-                                    20M013
-                                </p>
-                            </li>
-
-                        </div>
-                        <div class="user__content-list">
-                            <li class="user__content-item">
-                                Email
-                                <img src="images/sort.svg" alt=""/>
-                            </li>
-                            <li class="user__content-item">
-                                a.akhmedjanov@akfauniversity.org
-                            </li>
-                            <li class="user__content-item">
-                                a.akhmedjanov@akfauniversity.org
-                            </li>
-                            <li class="user__content-item">
-                                a.akhmedjanov@akfauniversity.org
-                            </li>
-                            <li class="user__content-item">
-                                a.akhmedjanov@akfauniversity.org
-                            </li>
-                            <li class="user__content-item">
-                                a.akhmedjanov@akfauniversity.org
-                            </li>
-                            <li class="user__content-item">
-                                a.akhmedjanov@akfauniversity.org
-                            </li>
-                            <li class="user__content-item">
-                                a.akhmedjanov@akfauniversity.org
-                            </li>
-                            <li class="user__content-item">
-                                a.akhmedjanov@akfauniversity.org
-                            </li>
-                            <li class="user__content-item">
-                                a.akhmedjanov@akfauniversity.org
-                            </li>
-                            <li class="user__content-item">
-                                a.akhmedjanov@akfauniversity.org
-                            </li>
-
-                        </div>
-                        <div class="user__content-list">
-                            <li class="user__content-item">
-                                First Name
-                                <img src="images/sort.svg" alt=""/>
-                            </li>
-                            <li class="user__content-item">Azamat</li>
-                            <li class="user__content-item">Azamat</li>
-                            <li class="user__content-item">Azamat</li>
-                            <li class="user__content-item">Azamat</li>
-                            <li class="user__content-item">Azamat</li>
-                            <li class="user__content-item">Azamat</li>
-                            <li class="user__content-item">Azamat</li>
-                            <li class="user__content-item">Azamat</li>
-                            <li class="user__content-item">Azamat</li>
-                            <li class="user__content-item">Azamat</li>
-
-                        </div>
-                        <div class="user__content-list">
-                            <li class="user__content-item">
-                                Last Name
-                                <img src="images/sort.svg" alt=""/>
-                            </li>
-
-                            <li class="user__content-item">Akhmedjanov</li>
-                            <li class="user__content-item">Akhmedjanov</li>
-                            <li class="user__content-item">Akhmedjanov</li>
-                            <li class="user__content-item">Akhmedjanov</li>
-                            <li class="user__content-item">Akhmedjanov</li>
-                            <li class="user__content-item">Akhmedjanov</li>
-                            <li class="user__content-item">Akhmedjanov</li>
-                            <li class="user__content-item">Akhmedjanov</li>
-                            <li class="user__content-item">Akhmedjanov</li>
-                            <li class="user__content-item">Akhmedjanov</li>
-
-                        </div>
-                        <div class="user__content-list">
-                            <li class="user__content-item">
-                                Phone number
-                                <img src="images/sort.svg" alt=""/>
-                            </li>
-
-                            <li class="user__content-item">+998 90 122 33 44</li>
-                            <li class="user__content-item">+998 90 122 33 44</li>
-                            <li class="user__content-item">+998 90 122 33 44</li>
-                            <li class="user__content-item">+998 90 122 33 44</li>
-                            <li class="user__content-item">+998 90 122 33 44</li>
-                            <li class="user__content-item">+998 90 122 33 44</li>
-                            <li class="user__content-item">+998 90 122 33 44</li>
-                            <li class="user__content-item">+998 90 122 33 44</li>
-                            <li class="user__content-item">+998 90 122 33 44</li>
-                            <li class="user__content-item">+998 90 122 33 44</li>
-
-                        </div>
-                        <div class="user__content-list">
-                            <li class="user__content-item">
-                                Department
-                                <img src="images/sort.svg" alt=""/>
-                            </li>
-
-                            <li class="user__content-item">Medical School</li>
-                            <li class="user__content-item">Medical School</li>
-                            <li class="user__content-item">Medical School</li>
-                            <li class="user__content-item">Medical School</li>
-                            <li class="user__content-item">Medical School</li>
-                            <li class="user__content-item">Medical School</li>
-                            <li class="user__content-item">Medical School</li>
-                            <li class="user__content-item">Medical School</li>
-                            <li class="user__content-item">Medical School</li>
-                            <li class="user__content-item">Medical School</li>
-
-
-                        </div>
-                        <div class="user__content-list">
-                            <li class="user__content-item">
-                                Action
-                                <img src="images/sort.svg" alt=""/>
-                            </li>
-                            <li class="user__content-item">
-                                <select name="" id="">
-                                    <option value="">select</option>
-                                </select>
-                            </li>
-                            <li class="user__content-item">
-                                <select name="" id="">
-                                    <option value="">select</option>
-                                </select>
-                            </li>
-                            <li class="user__content-item">
-                                <select name="" id="">
-                                    <option value="">select</option>
-                                </select>
-                            </li>
-                            <li class="user__content-item">
-                                <select name="" id="">
-                                    <option value="">select</option>
-                                </select>
-                            </li>
-                            <li class="user__content-item">
-                                <select name="" id="">
-                                    <option value="">select</option>
-                                </select>
-                            </li>
-                            <li class="user__content-item">
-                                <select name="" id="">
-                                    <option value="">select</option>
-                                </select>
-                            </li>
-                            <li class="user__content-item">
-                                <select name="" id="">
-                                    <option value="">select</option>
-                                </select>
-                            </li>
-                            <li class="user__content-item">
-                                <select name="" id="">
-                                    <option value="">select</option>
-                                </select>
-                            </li>
-                            <li class="user__content-item">
-                                <select name="" id="">
-                                    <option value="">select</option>
-                                </select>
-                            </li>
-                            <li class="user__content-item">
-                                <select name="" id="">
-                                    <option value="">select</option>
-                                </select>
-                            </li>
-                        </div>
+                    <span class="students-reg-circle"></span>
+                    <p class="students__content-link">20M013</p>
+                  </li>
+                  <li class="user__content-item">
+                    <div class="main__programs-items-check user-items-check">
+                      <img src="images/check.png" alt="" />
                     </div>
+                    <span class="students-reg-circle"></span>
 
-                    <div class="main__programs-sub">
-                        <div class="main__programs-sub-item">
-                            <select name="" id="">
-                                <option value="">10</option>
-                            </select>
-                            <h3>Items per page</h3>
-                            <p>12 of 200 items</p>
-                        </div>
-                        <div class="main__programs-sub-item">
-                            <select name="" id="">
-                                <option value="">1</option>
-                            </select>
-                            <p>of 10 pages</p>
-
-                            <div class="main__programs-sub-chevrons">
-                                <i class="fa-solid fa-chevron-left"></i>
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </div>
+                    <p class="students__content-link">20M013</p>
+                  </li>
+                  <li class="user__content-item">
+                    <div class="main__programs-items-check user-items-check">
+                      <img src="images/check.png" alt="" />
                     </div>
+                    <span class="students-reg-circle"></span>
+
+                    <p class="students__content-link">20M013</p>
+                  </li>
+                  <li class="user__content-item">
+                    <div class="main__programs-items-check user-items-check">
+                      <img src="images/check.png" alt="" />
+                    </div>
+                    <span class="students-reg-circle"></span>
+
+                    <p class="students__content-link">20M013</p>
+                  </li>
+                  <li class="user__content-item">
+                    <div class="main__programs-items-check user-items-check">
+                      <img src="images/check.png" alt="" />
+                    </div>
+                    <span class="students-reg-circle"></span>
+
+                    <p class="students__content-link">20M013</p>
+                  </li>
+                  <li class="user__content-item">
+                    <div class="main__programs-items-check user-items-check">
+                      <img src="images/check.png" alt="" />
+                    </div>
+                    <span class="students-reg-circle"></span>
+                    <p class="students__content-link">20M013</p>
+                  </li>
+                  <li class="user__content-item">
+                    <div class="main__programs-items-check user-items-check">
+                      <img src="images/check.png" alt="" />
+                    </div>
+                    <span class="students-reg-circle"></span>
+                    <p class="students__content-link">20M013</p>
+                  </li>
                 </div>
+                <div class="user__content-list">
+                  <li class="user__content-item">
+                    Email
+                    <img src="images/sort.svg" alt="" />
+                  </li>
+                  <li class="user__content-item">
+                    a.akhmedjanov@akfauniversity.org
+                  </li>
+                  <li class="user__content-item">
+                    a.akhmedjanov@akfauniversity.org
+                  </li>
+                  <li class="user__content-item">
+                    a.akhmedjanov@akfauniversity.org
+                  </li>
+                  <li class="user__content-item">
+                    a.akhmedjanov@akfauniversity.org
+                  </li>
+                  <li class="user__content-item">
+                    a.akhmedjanov@akfauniversity.org
+                  </li>
+                  <li class="user__content-item">
+                    a.akhmedjanov@akfauniversity.org
+                  </li>
+                  <li class="user__content-item">
+                    a.akhmedjanov@akfauniversity.org
+                  </li>
+                  <li class="user__content-item">
+                    a.akhmedjanov@akfauniversity.org
+                  </li>
+                  <li class="user__content-item">
+                    a.akhmedjanov@akfauniversity.org
+                  </li>
+                  <li class="user__content-item">
+                    a.akhmedjanov@akfauniversity.org
+                  </li>
+                </div>
+                <div class="user__content-list">
+                  <li class="user__content-item">
+                    First Name
+                    <img src="images/sort.svg" alt="" />
+                  </li>
+                  <li class="user__content-item">Azamat</li>
+                  <li class="user__content-item">Azamat</li>
+                  <li class="user__content-item">Azamat</li>
+                  <li class="user__content-item">Azamat</li>
+                  <li class="user__content-item">Azamat</li>
+                  <li class="user__content-item">Azamat</li>
+                  <li class="user__content-item">Azamat</li>
+                  <li class="user__content-item">Azamat</li>
+                  <li class="user__content-item">Azamat</li>
+                  <li class="user__content-item">Azamat</li>
+                </div>
+                <div class="user__content-list">
+                  <li class="user__content-item">
+                    Last Name
+                    <img src="images/sort.svg" alt="" />
+                  </li>
+
+                  <li class="user__content-item">Akhmedjanov</li>
+                  <li class="user__content-item">Akhmedjanov</li>
+                  <li class="user__content-item">Akhmedjanov</li>
+                  <li class="user__content-item">Akhmedjanov</li>
+                  <li class="user__content-item">Akhmedjanov</li>
+                  <li class="user__content-item">Akhmedjanov</li>
+                  <li class="user__content-item">Akhmedjanov</li>
+                  <li class="user__content-item">Akhmedjanov</li>
+                  <li class="user__content-item">Akhmedjanov</li>
+                  <li class="user__content-item">Akhmedjanov</li>
+                </div>
+                <div class="user__content-list">
+                  <li class="user__content-item">
+                    Phone number
+                    <img src="images/sort.svg" alt="" />
+                  </li>
+
+                  <li class="user__content-item">+998 90 122 33 44</li>
+                  <li class="user__content-item">+998 90 122 33 44</li>
+                  <li class="user__content-item">+998 90 122 33 44</li>
+                  <li class="user__content-item">+998 90 122 33 44</li>
+                  <li class="user__content-item">+998 90 122 33 44</li>
+                  <li class="user__content-item">+998 90 122 33 44</li>
+                  <li class="user__content-item">+998 90 122 33 44</li>
+                  <li class="user__content-item">+998 90 122 33 44</li>
+                  <li class="user__content-item">+998 90 122 33 44</li>
+                  <li class="user__content-item">+998 90 122 33 44</li>
+                </div>
+                <div class="user__content-list">
+                  <li class="user__content-item">
+                    Department
+                    <img src="images/sort.svg" alt="" />
+                  </li>
+
+                  <li class="user__content-item">Medical School</li>
+                  <li class="user__content-item">Medical School</li>
+                  <li class="user__content-item">Medical School</li>
+                  <li class="user__content-item">Medical School</li>
+                  <li class="user__content-item">Medical School</li>
+                  <li class="user__content-item">Medical School</li>
+                  <li class="user__content-item">Medical School</li>
+                  <li class="user__content-item">Medical School</li>
+                  <li class="user__content-item">Medical School</li>
+                  <li class="user__content-item">Medical School</li>
+                </div>
+                <div class="user__content-list">
+                  <li class="user__content-item">
+                    Action
+                    <img src="images/sort.svg" alt="" />
+                  </li>
+                  <li class="user__content-item">
+                    <select name="" id="">
+                      <option value="">select</option>
+                    </select>
+                  </li>
+                  <li class="user__content-item">
+                    <select name="" id="">
+                      <option value="">select</option>
+                    </select>
+                  </li>
+                  <li class="user__content-item">
+                    <select name="" id="">
+                      <option value="">select</option>
+                    </select>
+                  </li>
+                  <li class="user__content-item">
+                    <select name="" id="">
+                      <option value="">select</option>
+                    </select>
+                  </li>
+                  <li class="user__content-item">
+                    <select name="" id="">
+                      <option value="">select</option>
+                    </select>
+                  </li>
+                  <li class="user__content-item">
+                    <select name="" id="">
+                      <option value="">select</option>
+                    </select>
+                  </li>
+                  <li class="user__content-item">
+                    <select name="" id="">
+                      <option value="">select</option>
+                    </select>
+                  </li>
+                  <li class="user__content-item">
+                    <select name="" id="">
+                      <option value="">select</option>
+                    </select>
+                  </li>
+                  <li class="user__content-item">
+                    <select name="" id="">
+                      <option value="">select</option>
+                    </select>
+                  </li>
+                  <li class="user__content-item">
+                    <select name="" id="">
+                      <option value="">select</option>
+                    </select>
+                  </li>
+                </div>
+              </div>
+
+              <div class="main__programs-sub">
+                <div class="main__programs-sub-item">
+                  <select name="" id="">
+                    <option value="">10</option>
+                  </select>
+                  <h3>Items per page</h3>
+                  <p>12 of 200 items</p>
+                </div>
+                <div class="main__programs-sub-item">
+                  <select name="" id="">
+                    <option value="">1</option>
+                  </select>
+                  <p>of 10 pages</p>
+
+                  <div class="main__programs-sub-chevrons">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </section>
         <!-- Section Programs End -->
+      </div>
     </div>
-</div>
 
-<script
-        src="https://code.jquery.com/jquery-3.6.1.js"
-        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-        crossorigin="anonymous"
-></script>
-<script src="scripts/total.js"></script>
-<script src="scripts/script.js"></script>
-<script src="scripts/checkbox.js"></script>
-</body>
+    <script src="scripts/bootstrap.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/total.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/checkbox.js"></script>
+  </body>
 </html>

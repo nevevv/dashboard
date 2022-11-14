@@ -1,6 +1,8 @@
-$(".header__nav").css({
-  height: +$(".dashboard__main").height() + 40,
-});
+if (window.innerWidth <= 1200) {
+  $(".header__nav").css({
+    height: +$(".dashboard__main").height() + 40,
+  });
+}
 
 // ******************************
 // Navigation Start
@@ -52,7 +54,6 @@ function sidebarClickHandler() {
 
   for (let i = 0; i < sidebarItems.length; i++) {
     sidebarItems[i].addEventListener("click", function (e) {
-      
       const prevActive = document.querySelector(".active");
       const prevActiveIdx = +prevActive.getAttribute("data-idx");
 
