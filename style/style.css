@@ -1840,3 +1840,93 @@ section {
 .accounting__list {
   grid-template-columns: 1.3fr 1.3fr 1fr 2fr 1fr 0.7fr;
 }
+
+/* Students-registration-third */
+
+.reg {
+  max-width: 1420px;
+}
+
+.students__grid-content {
+  padding-left: 22px;
+  gap: 20px;
+}
+
+.students__grid-item {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 13px 16px 16px 16px;
+  width: 330px;
+}
+
+@media (max-width: 1440px) {
+  .students__grid-item {
+    width: 290px;
+  }
+}
+
+.students__grid-name {
+  font-family: var(--int400);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8b8d97;
+}
+
+.students__grid-lesson {
+  font-family: var(--int500);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #45464e;
+}
+
+.students__grid-lvl {
+  font-family: var(--int400);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #38cc1f;
+}
+
+.students__grid-info {
+  margin-top: 14px;
+  margin-bottom: 16px;
+}
+
+.students__grid-info p {
+  color: #5570f1;
+  font-family: var(--int400);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.students__grid-prof {
+  font-family: var(--int400);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8b8d97;
+}
+
+.students__prof-name {
+  font-family: var(--int500);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 180px;
+  color: #53545c;
+}
