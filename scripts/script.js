@@ -23,3 +23,7 @@ function scrollMain() {
     height: h,
   });
 }
+
+$(".dropdown").click(function () {
+  $(".dropdown-list").toggle();
+});

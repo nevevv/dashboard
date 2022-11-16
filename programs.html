@@ -137,10 +137,34 @@
 
                 Create a New Program
               </button>
-              <img
-                src="images/dots-vertical.svg"
-                class="dots-vertical main__programs-content-dots"
-              />
+
+              <div class="dropdown">
+                <img src="images/dots-vertical.svg" />
+                <ul
+                  class="dropdown-list"
+                  aria-labelledby="dropdownMenuButton1"
+                  style="
+                    background: rgba(236, 239, 255, 0.4);
+                    box-shadow: 0px 2px 10px rgba(116, 116, 116, 0.25);
+                    backdrop-filter: blur(7.5px);
+                    border-radius: 10px;
+                  "
+                >
+                  <li>
+                    <a class="dropdown-item-link" href="#"
+                      >Request Data Update</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item-link" href="#">Download Template</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item-link" href="#"
+                      >Import from XLS file</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
             <div class="main__programs-content-block">
               <div class="main__content-block-head">
@@ -286,12 +310,14 @@
       </form>
     </div>
 
-    <script src="scripts/bootstrap.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.6.1.js"
       integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
       crossorigin="anonymous"
     ></script>
+
+    <script src="scripts/bootstrap.min.js"></script>
+
     <script src="scripts/total.js"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/checkbox.js"></script>

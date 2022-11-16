@@ -1930,3 +1930,39 @@ section {
   max-width: 180px;
   color: #53545c;
 }
+
+/* dropdown menu */
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-list {
+  position: absolute;
+  left: -10.3vw;
+  top: 2.4vw;
+  width: 210px;
+  padding: 16px 24px;
+  padding-left: 200px;
+  z-index: 1000;
+  display: none;
+}
+
+.dropdown-list li {
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 24px;
+}
+
+.dropdown-list li a {
+  font-family: var(--int400);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #53545c;
+  text-align: center;
+  margin: 0 auto;
+}
