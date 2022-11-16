@@ -140,7 +140,7 @@
             <div class="users-content-head">
               <h3 class="users-content-title">All students</h3>
               <div class="main__all-btn">
-                <button class="main__programs-content-btn">
+                <button class="main__programs-content-btn modalBtn">
                   <img src="images/plus.png" alt="" />
 
                   Create a New User
@@ -442,6 +442,27 @@
       </div>
     </div>
 
+    <div class="modals-body-bg"></div>
+
+    <div class="modal-programs">
+      <div class="modal-programs-head">
+        <h2 class="modal-programs-title">Create a New User</h2>
+        <img src="images/X.png" class="modal-programs-close" alt="" />
+      </div>
+
+      <form class="modal-programs-form">
+        <input type="text" placeholder="Course title" />
+        <input type="text" placeholder="Min credits" />
+        <input type="text" placeholder="Program" />
+        <input type="text" placeholder="Degree" />
+
+        <div>
+          <button class="modal-programs-closeBtn">Cancel</button>
+          <button class="modal-programs-createBtn">Create</button>
+        </div>
+      </form>
+    </div>
+
     <script src="scripts/bootstrap.min.js"></script>
 
     <script
@@ -452,5 +473,6 @@
     <script src="scripts/total.js"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/checkbox.js"></script>
+    <script src="scripts/modals.js"></script>
   </body>
 </html>

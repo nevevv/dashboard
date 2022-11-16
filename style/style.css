@@ -5,7 +5,6 @@
   padding: 0;
   text-decoration: none !important;
   list-style: none;
-  box-sizing: content-box !important;
   scroll-behavior: smooth;
 }
 
@@ -69,6 +68,92 @@ section {
   align-items: center;
   gap: 32px;
   margin-right: -16px;
+}
+
+/* students modal */
+
+.students-registration-modal {
+  width: 80vw;
+  height: 90vh;
+  position: absolute;
+  left: 50%;
+  top: 2%;
+  transform: translate(-50%);
+  background: white;
+  padding: 29px 24px 28px 24px;
+  border-radius: 12px;
+  display: none;
+  z-index: 100;
+}
+
+.students-registration-form {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.students-registration-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(239, 241, 249, 0.6);
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+.students-registration-form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.students-registration-item input {
+  width: 25vw;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding-top: 8px;
+}
+
+.students-registration-item input::placeholder {
+  color: #abafb1;
+}
+
+.students-registration-item label {
+  font-family: var(--int400);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 1px;
+  padding-bottom: 8px;
+  color: #5e6366;
+}
+
+.students-registration-form-btns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.reg__btns {
+  padding: 14px 40px;
+  border-radius: 12px;
+  border: none;
+  background: white;
+  padding: 17px 40px;
+  cursor: pointer;
+  color: #5570f1;
+  margin-top: 30px;
+  font-family: var(--int400);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 /* Modal */
@@ -1680,7 +1765,44 @@ section {
   .finance-table-text {
     text-align: center;
     padding-left: 0 !important;
-  
-
   }
+}
+
+/* Students Second Page */
+
+.students-second-reg-list {
+  display: grid;
+  grid-template-columns: 1.4fr 0.7fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 1440px) {
+  .students-second-reg-list .user__content-list {
+    gap: 50px;
+  }
+
+  .students-second-reg-list {
+    gap: 40px;
+  }
+}
+
+/* Scholarship-second page */
+
+.scholarship-second-lists {
+  grid-template-columns: 1fr 1fr 1.6fr 0.2fr;
+}
+
+/* Accordion */
+
+.accordion-link {
+  cursor: pointer;
+}
+
+.accordion-link-dropdown {
+  text-align: left;
+}
+
+/* Accounting Page */
+
+.accounting__list {
+  grid-template-columns: 1.3fr 1.3fr 1fr 2fr 1fr 0.7fr;
 }
